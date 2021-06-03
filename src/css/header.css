@@ -1,0 +1,15 @@
+.jumbotron {
+    padding: 30px 0px;
+    margin: 0px;
+    font-family: "Tangerine", "Apple Chancery", Papyrus, Chalkduster, Times, sans-serif;
+    color: maroon;
+}
+
+h1 {
+    font-size: 8em; 
+}
+      
+h2 {
+    font-size: 5em; 
+    text-align: center
+}
