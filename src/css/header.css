@@ -14,7 +14,14 @@
 }
 
 #togButton {
-    margin-top: 10px;
-    margin-bottom: 10px;
     border: none;
+}
+
+#togButton img {
+    margin: 19px;
+}
+
+#microNavbar{
+    padding: 0px;
+    margin: 0px;
 }
