@@ -5,13 +5,12 @@
     color: maroon;
 }
 
-h1 {
+.jumbotron h1 {
     font-size: 8em; 
 }
-      
-h2 {
+  
+.jumbotron h2 {
     font-size: 5em; 
-    text-align: center
 }
 
 #togButton {

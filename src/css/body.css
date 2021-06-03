@@ -1,3 +1,6 @@
+a {
+  color: teal; }
+
 .breadcrumb {
     background-color: #f8dfdf; 
 }
@@ -5,3 +8,45 @@
 .breadcrumb a {
     color: inherit;
 }
+
+.card {
+  margin-bottom: 50px; }
+
+.card-body {
+  padding-bottom: 0px; }
+
+h1, h2, h3 {
+    font-family: "Tangerine", "Apple Chancery", Papyrus, Chalkduster, Times, sans-serif; }
+  
+  h1, h2 {
+    color: maroon; }
+  
+  h1 {
+    font-size: 7em; }
+  
+  h2 {
+    text-align: center;
+    font-size: 5em; }
+  
+  h3 {
+    color: #2f31c0;
+    font-size: 2.4em; }
+
+img {
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 20px;
+    margin-bottom: 30px;  
+  }
+
+    p {
+        font-family: cursive, Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: deeppink;
+        font-weight: bold; }
+
+        #evergreens {
+          margin-right: auto;
+          margin-left: auto; }

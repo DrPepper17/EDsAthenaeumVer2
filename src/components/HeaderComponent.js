@@ -37,7 +37,7 @@ class Header extends Component {
                     </div>
                 </Jumbotron>
 
-                <Navbar dark sticky="top" className="d-md-none" style={{ backgroundImage: `url("../assets/images/grayscalealice4.png")`, backgroundRepeat: 'y-repeat', backgroundSize: '100%' }}>
+                <Navbar dark sticky="top" className="d-md-none" style={{ backgroundImage: `url("../assets/images/grayscalealice4.png")`, backgroundRepeat: 'y-repeat', backgroundSize: 'contain' }}>
                     <div className="container">
                         <NavbarToggler onClick={this.toggleNav} id="togButton" className="ml-auto">
                             <img src="../assets/images/mytoggle2.png" height='30'  />
