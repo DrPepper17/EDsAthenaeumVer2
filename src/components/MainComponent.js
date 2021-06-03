@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
-import Home from './HomeComponent';
 import Shelf from './ShelfComponent';
+import Home from './HomeComponent';
+import Author from './AuthorComponent';
+import Book from './BookComponent';
+import Cafe from './CafeComponent';
+import Contact from './ContactComponent';
+import Event from './EventComponent';
+import Garden from './GardenComponent';
+import OutsideLinks from './LinkComponent';
+import Study from './StudyComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 
@@ -18,9 +26,7 @@ class Main extends Component {
     render() {
         const HomePage = () => {
             return (
-                <Home 
-
-                />
+                <Home />
             );
         }
 
@@ -31,7 +37,14 @@ class Main extends Component {
                     <div className="col mx-5">
                         <Switch>
                             <Route path='/home' component={HomePage} />
-
+                            <Route exact path='/cafe' render={() => <Cafe />} />
+                            <Route exact path='/book' render={() => <Book />} />
+                            <Route exact path='/study' render={() => <Study />} />
+                            <Route exact path='/event' render={() => <Event />} />
+                            <Route exact path='/author' render={() => <Author />} />
+                            <Route exact path='/garden' render={() => <Garden />} />
+                            <Route exact path='/contact' render={() => <Contact />} />
+                            <Route exact path='/outsidelinks' render={() => <OutsideLinks />} />
                             <Redirect to='/home' />
                         </Switch>
                     </div>
