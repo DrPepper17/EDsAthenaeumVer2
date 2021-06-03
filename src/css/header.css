@@ -13,3 +13,9 @@ h2 {
     font-size: 5em; 
     text-align: center
 }
+
+#togButton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}

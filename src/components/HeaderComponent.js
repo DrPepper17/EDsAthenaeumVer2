@@ -27,7 +27,7 @@ class Header extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-4 text-center">
-                                <a href="index.html"><img src="../assets/images/emilydaguero.png" class="img-fluid" alt="Emily Dickinson Daguerreotype"/></a>
+                                <NavbarBrand href="/"><img src="../assets/images/emilydaguero.png" fluid alt="Emily Dickinson Daguerreotype"/></NavbarBrand>
                             </div>
                             <div className="col-md align-self-center text-center">
                                 <h1 className="d-none d-md-block">ED's Athenaeum</h1>
@@ -37,31 +37,39 @@ class Header extends Component {
                     </div>
                 </Jumbotron>
 
-                <Navbar dark sticky="top" className="d-md-none">
+                <Navbar dark sticky="top" className="d-md-none" style={{ backgroundImage: `url("../assets/images/grayscalealice4.png")`, backgroundRepeat: 'y-repeat', backgroundSize: '100%' }}>
                     <div className="container">
-                        <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/logo.png" height="30" width="30" alt="NuCamp Logo" /></NavbarBrand>
-                        <NavbarToggler onClick={this.toggleNav} />
+                        <NavbarToggler onClick={this.toggleNav} id="togButton" className="ml-auto">
+                            <img src="../assets/images/mytoggle2.png" height='30'  />
+                        </NavbarToggler>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/home">
-                                        <i className="fa fa-home fa-lg" /> Home
-                                    </NavLink>
+                                    <NavLink className="nav-link" to="/home"><i className="fa fa-home fa-lg" /> Home</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/directory">
-                                        <i className="fa fa-list fa-lg" /> Directory
-                                    </NavLink>
+                                    <NavLink className="nav-link" to="/cafe"><i className="fa fa-coffee fa-lg" /> Café</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/aboutus">
-                                        <i className="fa fa-info fa-lg" /> About
-                                    </NavLink>
+                                    <NavLink className="nav-link" to="/book"><i className="fa fa-book fa-lg" /> Books</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/contactus">
-                                        <i className="fa fa-address-card fa-lg" /> Contact Us
-                                    </NavLink>
+                                    <NavLink className="nav-link" to="/study"><i className="fa fa-key fa-lg" /> Studies</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/event"><i className="fa fa-calendar fa-lg" /> Events</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/author"><i className="fa fa-user-circle-o fa-lg" /> Authors</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/garden"><i className="fa fa-leaf fa-lg" /> Garden</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/contact"><i className="fa fa-volume-control-phone fa-lg" /> Contact</NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/outsidelinks"><i className="fa fa-external-link fa-lg" /> Links</NavLink>
                                 </NavItem>
                             </Nav>
                         </Collapse>

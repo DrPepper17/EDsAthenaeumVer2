@@ -7,7 +7,7 @@ function Shelf(props) {
     return (
         <Navbar dark sticky="top" style={{backgroundImage: 'url("./assets/images/emptyshelftall3.png', backgroundRepeat: 'no-repeat', backgroundSize: '160px', backgroundPosition: 'Left' }}>
             <ul className="navbar-nav">
-                <li className="nav-item active"><NavLink className="nav-link" to="/home"><i className="fa fa-home fa-lg" /> Home</NavLink></li>
+                <li className="nav-item "><NavLink className="nav-link" to="/home"><i className="fa fa-home fa-lg" /> Home</NavLink></li>
                 <li className="nav-item"><NavLink className="nav-link" to="/cafe"><i className="fa fa-coffee fa-lg" /> Café</NavLink></li>
                 <li className="nav-item"><NavLink className="nav-link" to="/book"><i className="fa fa-book fa-lg" /> Books</NavLink></li>
                 <li className="nav-item"><NavLink className="nav-link" to="/study"><i className="fa fa-key fa-lg" /> Studies</NavLink></li>

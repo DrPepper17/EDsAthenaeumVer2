@@ -13,8 +13,6 @@ import OutsideLinks from './LinkComponent';
 import Study from './StudyComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
-
-
 class Main extends Component {
     constructor(props) {
         super(props);
@@ -31,9 +29,9 @@ class Main extends Component {
         }
 
         return (
-            <div style={{ backgroundImage: 'url("../assets/images/bookbggray.png")', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+            <div style={{ backgroundImage: 'url("../assets/images/bookbggray.png")', backgroundAttachment: 'fixed', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
                 <Header />
-                <div className="row mt-5">
+                <div className="row">
                     <div className="col mx-5">
                         <Switch>
                             <Route path='/home' component={HomePage} />
@@ -48,12 +46,15 @@ class Main extends Component {
                             <Redirect to='/home' />
                         </Switch>
                     </div>
-                    <div className="col-md-3 col-lg-2 d-none d-md-block p-0">
+                    <div className="col-md-3 col-lg-2 d-none d-md-block p-0 mt-5 mr-lg-5 mr-xl-0">
                         <Shelf />
                     </div>
                 </div>
                 <hr />
                 <Footer />
+                <div className="text-center">
+                    <img src="../assets/images/emilydaguero.png" width='100' alt="Emily Dickinson" style={{marginBottom:'75px'}}/>
+                </div>
             </div>
         );
     }

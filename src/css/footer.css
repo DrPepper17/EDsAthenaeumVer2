@@ -1,0 +1,13 @@
+#footer {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2f31c0;
+}
+ #footer .btn-social-icon {
+     margin-top: 10px;
+ }
+
+
+#footer u {
+    font-size: 1.4em;
+}
