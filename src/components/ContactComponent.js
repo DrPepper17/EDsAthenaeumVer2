@@ -28,10 +28,10 @@ function Contact() {
             </div>
             <div className="row text-center">
                 <div className="col p-md-0 align-self-center">
-                    <p>So come on down and visit us. We are located right in the heart of the historical Omaha Old Market distric on Main Street that you can't miss us. If you have any quesitons, please don't hesitate to email or give us a call. All our contact info is listed below. We look forward to meeting you.</p>
+                    <p>Come on down and visit us. We are located right in the heart of the historical Omaha Old Market distric on Main Street that you can't miss us. If you have any quesitons, please don't hesitate to email or give us a call. All our contact info is listed below. We look forward to meeting you.</p>
                 </div>
                 <div className="col-md align-self-center mr-md-3">
-                    <img src="../assets/images/map2.jpg" alt="location on map"/>
+                    <img src="../assets/images/map2.jpg" width='85%' alt="location on map"/>
                 </div>
             </div>
             <div className="row text-center">

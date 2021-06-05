@@ -42,6 +42,16 @@ p {
     font-weight: bold; 
 }
 
+table {
+    border: 1px solid black;
+    margin: 45px 0px;
+    background-color: rgba(255, 175, 164, 0.705);
+}
+  
+  th, td {
+    border-bottom: 1px solid black; 
+}
+
 .breadcrumb {
     background-color: #f8dfdf; 
 }
@@ -56,6 +66,11 @@ p {
     
 .card-body {
     padding-bottom: 0px; 
+}
+
+.grayBook {
+    margin-bottom: 25px;
+
 }
 
 .jumbotron {
@@ -73,12 +88,14 @@ p {
     font-size: 5em; 
 }
 
-#togButton {
-    border: none;
-}
+.tab-content {
+    border: 3px solid rgba(248, 216, 35, 0.836);
+    border-top: none;
+    padding: 10px;
+    margin-bottom: 0px; }
 
-#togButton img {
-    margin: 19px;
+#crimsonRoom h2, #crimsonRoom p {
+    color: red; 
 }
 
 #evergreens {
@@ -96,12 +113,64 @@ p {
     margin-top: 10px;
 }
 
-
 #footer u {
     font-size: 1.2em;
+}
+
+#grandOak h2, #grandOak p {
+    color: orange; 
+}
+
+#groupStudio li {
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: Gothic;
+}
+
+#groupStudio li .active {
+    background-size: 100% 100%;
+    color: cyan;
+    border-bottom-color: transparent;
+}
+
+#indigoRoom h2, #indigoRoom p {
+    color: violet; 
+}
+
+#map {
+    border: none;
+    background-color: rgba(164, 229, 255, 0.705); 
 }
 
 #microNavbar{
     padding: 0px;
     margin: 0px;
+}
+
+#neonRoom h2, #neonRoom p {
+    color: greenyellow; 
+}
+
+#studioTabs li {
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: Gothic;
+}
+
+#studioTabs li .active {
+    background-size: 100% 100%;
+    color: cyan;
+    border-bottom-color: transparent;
+}
+
+#sugarMaple h2, #sugarMaple p {
+    color: orang; 
+}
+
+#togButton {
+    border: none;
+}
+
+#togButton img {
+    margin: 19px;
 }
