@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import '../css/body.css';
 
-function Author(props) {
+function ScrollToTopOnMount() {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+  
+    return null;
+  }
+
+function Author() {
     return (
         <div>
+            <ScrollToTopOnMount />
+            
             <Breadcrumb className="sticky-top">
                 <BreadcrumbItem><Link to="/">Home</Link></BreadcrumbItem>
                 <BreadcrumbItem active>Authors</BreadcrumbItem>

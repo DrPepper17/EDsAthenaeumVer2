@@ -3,7 +3,7 @@ import { Nav, Navbar, NavbarBrand, NavItem } from 'reactstrap'
 import { NavLink } from 'react-router-dom';
 import '../css/shelf.css';
 
-function Shelf(props) {
+function Shelf() {
     return (
         <Navbar dark sticky="top" style={{backgroundImage: 'url("./assets/images/emptyshelftall3.png', backgroundRepeat: 'no-repeat', backgroundSize: '160px', backgroundPosition: 'Left' }}>
             <ul className="navbar-nav">
