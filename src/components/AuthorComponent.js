@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import '../css/body.css';
 
 function ScrollToTopOnMount() {
     useEffect(() => {
@@ -16,10 +15,11 @@ function Author() {
         <div>
             <ScrollToTopOnMount />
             
-            <Breadcrumb className="sticky-top">
-                <BreadcrumbItem><Link to="/">Home</Link></BreadcrumbItem>
+            <Breadcrumb>
+                <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
                 <BreadcrumbItem active>Authors</BreadcrumbItem>
             </Breadcrumb>
+
             <p>Hi !!</p>
             <p>This is our Authors</p>
             <img src="../assets/images/dickens.jpg" class="img-fluid" alt="evergreens cafe"/>

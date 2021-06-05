@@ -1,7 +1,6 @@
 import React from 'react';
 import { Nav, Navbar, NavbarBrand, NavItem } from 'reactstrap'
 import { NavLink } from 'react-router-dom';
-import '../css/shelf.css';
 
 function Shelf() {
     return (

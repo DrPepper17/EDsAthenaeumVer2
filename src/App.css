@@ -1,2 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
 
+a {
+    color: teal; 
+}
+
+h1, h2, h3 {
+    font-family: "Tangerine", "Apple Chancery", Papyrus, Chalkduster, Times, sans-serif; 
+}
+  
+h1, h2 {
+    color: maroon; 
+}
+  
+h1 {
+    font-size: 7em; 
+}
+  
+h2 {
+    text-align: center;
+    font-size: 5em; 
+}
+  
+h3 {
+    color: #2f31c0;
+    font-size: 2.4em; 
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 20px;
+    margin-bottom: 30px;  
+}
+
+p {
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: deeppink;
+    font-weight: bold; 
+}
+
+.breadcrumb {
+    background-color: #f8dfdf; 
+}
+
+.breadcrumb a {
+    color: inherit;
+}
+    
+.card {
+    margin-bottom: 50px; 
+}
+    
+.card-body {
+    padding-bottom: 0px; 
+}
+
+.jumbotron {
+    padding: 30px 0px;
+    margin: 0px;
+    font-family: "Tangerine", "Apple Chancery", Papyrus, Chalkduster, Times, sans-serif;
+    color: maroon;
+}
+
+.jumbotron h1 {
+    font-size: 8em; 
+}
+  
+.jumbotron h2 {
+    font-size: 5em; 
+}
+
+#togButton {
+    border: none;
+}
+
+#togButton img {
+    margin: 19px;
+}
+
+#evergreens {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#footer p {
+    font-size: 1.05em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2f31c0;
+}
+
+#footer .btn-social-icon {
+    margin-top: 10px;
+}
+
+
+#footer u {
+    font-size: 1.2em;
+}
+
+#microNavbar{
+    padding: 0px;
+    margin: 0px;
+}

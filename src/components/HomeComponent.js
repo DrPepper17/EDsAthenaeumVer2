@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import '../css/body.css';
 
 function ScrollToTopOnMount() {
     useEffect(() => {

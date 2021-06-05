@@ -1,7 +1,7 @@
 import React, { Component }  from 'react';
 import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-import '../css/header.css';
+
 
 class Header extends Component {
 
@@ -27,7 +27,7 @@ class Header extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-4 text-center">
-                                <NavbarBrand href="/"><img src="../assets/images/emilydaguero.png" fluid alt="Emily Dickinson Daguerreotype"/></NavbarBrand>
+                                <NavbarBrand href="/home"><img src="../assets/images/emilydaguero.png" fluid alt="Emily Dickinson Daguerreotype"/></NavbarBrand>
                             </div>
                             <div className="col-md align-self-center text-center">
                                 <h1 className="d-none d-md-block">ED's Athenaeum</h1>
